@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Agrima Tripathi</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <h1>AGRIMA TRIPATHI</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Main-Intro Section -->
+    <div class="parallax1">
+      <main_pic>
+        <text_block>
+        <h1>HELLO</h1>
+        <p>I am an amateur coder trying to enter the Technical world!</p>
+        </text_block>
+      </main_pic>
+    </div>
+    <!--  about Section -->
+    <section class="about", id="about">
+      <h2 >About Me</h2>
+      <p>
+        I am a first year student at VIT, vellore in the ECE in department.
+        I have interest in web development and this is my first proper
+        website. 
+      </p>
+      <p>
+        Currenlty my skills include Python, JavaScript, CSS and HTML. Looking 
+        to develop more in all above skills
+      </p> 
+      <p>
+       Other than coding my passions are books and cooking. Good book 
+       suggesstions are well appreciated by me same goes for good 
+       recpies.
+      </p>
+      <p>
+        You can be sure to share with your weird ideas for project cause I love making quirky projects. Connect with me and help me grow in this sector!
+      </p>
+    </section>
+    <div class="parallax2"></div>
+    <!-- Link to my works -->
+    <section class="contact" id="projects">
+      <h2>Links to My Work</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+            <div class="form-control">
+              <label>COMING SOON</label>
+              <p>Be sure to be back</p>
+            </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </section>
+    <div class="parallax3"></div>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+            <div class="form-control">
+              <label>Email</label>
+              <p>emailagrima@gmail.com</p>
+            </div>
+            <div class="form-control">
+              <label>GIT-HUB</label>
+              <p>https://github.com/user-doesnt-exits</p>
+            </div>
+            <input
+              type="submit"
+              value="click for a suprise"
+              onclick="clickfunc()"
+              id="submit-btn"
+              class="submit-btn"
+            />
+            <div class="form-control">
+              <label id="h"></label>
+            </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function clickfunc() {
+        var x = document.getElementById("h");
+        if (x.innerHTML==""){
+          x.innerHTML ="Thank You for visiting";
+        } else{
+          x.innerHTML="";
+        }
+      }
+    </script>
+  </body>
+</html>
